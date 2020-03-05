@@ -19,6 +19,7 @@ public class Lab4Question7 {
 			i++;
 		}
 		i = 0;
+		// JA: I'm not sure what yoiu are doing here. Some comments would help.
 		while (arr[i] != -1) {
 			j = 0;
 			while (arr[j] != -1) {

@@ -20,7 +20,7 @@ public class Lab4Question3 {
 	}
 	// Function that reverses a string and returns the reverse
 	public static String reverse (String s) {
-		String reverse = " ";
+		String reverse = "";
 		for (int i = s.length() - 1; i >= 0; i--) {
 			reverse += s.charAt(i);
 		}
