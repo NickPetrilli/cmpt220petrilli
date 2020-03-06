@@ -2,6 +2,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Collections;
 
+// JA: Comments?
 
 public class Project1 {
 	static class person implements Comparable<person> {
