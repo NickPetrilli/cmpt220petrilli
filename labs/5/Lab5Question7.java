@@ -11,7 +11,7 @@ public class Lab5Question7 {
 	public static boolean isUpperTriangle(double[][] array) {
 		for (int i = 0; i < array.length; i++) {
 			for (int j = 0; j < array.length; j++) {
-				while (i > j) {
+				if (i > j) { // JA
 					if (array[i][j] != 0)
 						return false;		
 				}
